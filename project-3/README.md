@@ -1,4 +1,4 @@
-# Project 3: Building a Stopwath using ZYNQ TTC
+# Project 3: Building a Stopwatch using ZYNQ TTC
 ## Notes
 I did this project horrifically late (and I mean horrifically), which was mostly due to hitting a roadblock in terms of implementation (although I had the general pseudocode for the digit-increment system I ended up using about the week before spring break).
 
