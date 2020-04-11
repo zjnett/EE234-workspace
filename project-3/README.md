@@ -1,4 +1,21 @@
 # Project 3: Building a Stopwatch using ZYNQ TTC
+
+## Videos
+### Requirement 1
+![](p3r1.gif)
+
+### Requirement 2
+![](p3r2.gif)
+
+### Requirement 3
+![](p3r3.gif)
+
+### Requirement 4
+![](p3r4.gif)
+
+### Challenge 1
+![](p3c1.gif)
+
 ## Notes
 I did this project horrifically late (and I mean horrifically), which was mostly due to hitting a roadblock in terms of implementation (although I had the general pseudocode for the digit-increment system I ended up using about the week before spring break).
 
