@@ -1,14 +1,6 @@
 .text
 .global main
 
-.equ LED_DATA, 0x41210000
-.equ BTN_DATA, 0x41200000
-.equ SW_DATA, 0x41220000
-.equ SVN_SEG_CTRL, 0x43C10000
-.equ SVN_SEG_DATA, 0x43C10004
-.equ DELAY_CONST, 0xC49BA
-
-
 @uart1 control register
 .equ UART1_CR, 0xE0001000
 @uart1 mode register
