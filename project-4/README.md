@@ -33,3 +33,8 @@ This was maybe slightly different than the last two parts, but algorithmically p
 
 ### Part 4
 This part took me maybe slightly longer than the others just because of the logic around processing for a newline and checking to see if there was enough space left to store the string (since I misinterpreted the problem and started scanning for a null character. I then thought #10 was the value for newline, not #13, and then got my parameter registers a little mixed up-- other than that, this part wasn't too bad.
+
+### Part 5
+Man, I almost wish that there was something up front in this project that said: "Hey, use r0 and r1 for your parameters in your send and receive functions, because otherwise you'll look like an idiot when you call them in C."
+
+Suffice it to say, I look like an idiot, passing garbage parameters all over the place when I call my assembly subroutines from C. (Maybe this is a sign that my assembly code isn't optimal... well, we all know that.) All that said, once I got the parameter order down, embedding a C main method was pretty easy. The documentation also didn't really specify that you need to make a main.c file and declare your assembly subroutines as global in your .S file, but I figured it out.
