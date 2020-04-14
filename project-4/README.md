@@ -38,3 +38,6 @@ This part took me maybe slightly longer than the others just because of the logi
 Man, I almost wish that there was something up front in this project that said: "Hey, use r0 and r1 for your parameters in your send and receive functions, because otherwise you'll look like an idiot when you call them in C."
 
 Suffice it to say, I look like an idiot, passing garbage parameters all over the place when I call my assembly subroutines from C. (Maybe this is a sign that my assembly code isn't optimal... well, we all know that.) All that said, once I got the parameter order down, embedding a C main method was pretty easy. The documentation also didn't really specify that you need to make a main.c file and declare your assembly subroutines as global in your .S file, but I figured it out.
+
+### Part 6
+Remaking in them in C went much smoother than making them than in assembly the first time (maybe because I didn't need to do weird comparison loop structures, and could finally use the for/while/do-while constructs I'm familiar with). I chose not to rewrite the reset_uart function because it wasn't required and actually was provided in the documentation regardless, so I just called it as an external function like the previous requirement. Otherwise, the C functions are pretty standard string processing loops.
