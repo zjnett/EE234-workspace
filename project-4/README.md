@@ -27,3 +27,6 @@ Relatively straightforward, especially with the tutorial posted as reference, al
 
 ### Part 2
 This part was also straightforward-- essentially we're just polling a different status bit to see if the FIFO is empty. If the FIFO isn't empty, then we simply read the character in it. Toggling LEDs in the subroutine also was pretty straightforward-- just compare r0 (the parameter, or character) and XOR the corresponding LED bit if equal.
+
+### Part 3
+This was maybe slightly different than the last two parts, but algorithmically pretty similar to processing a string in C. No real difficulties here, although I embellished a little bit and added a super long string (and a newline string) just because I could.
