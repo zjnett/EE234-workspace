@@ -30,3 +30,6 @@ This part was also straightforward-- essentially we're just polling a different 
 
 ### Part 3
 This was maybe slightly different than the last two parts, but algorithmically pretty similar to processing a string in C. No real difficulties here, although I embellished a little bit and added a super long string (and a newline string) just because I could.
+
+### Part 4
+This part took me maybe slightly longer than the others just because of the logic around processing for a newline and checking to see if there was enough space left to store the string (since I misinterpreted the problem and started scanning for a null character. I then thought #10 was the value for newline, not #13, and then got my parameter registers a little mixed up-- other than that, this part wasn't too bad.
