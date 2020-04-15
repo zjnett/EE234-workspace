@@ -2,22 +2,22 @@
 
 ## Videos
 ### Requirement 1
-To be added.
+![](p4r1.gif)
 
 ### Requirement 2
-To be added.
+![](p4r2.gif)
 
 ### Requirement 3
-To be added.
+![](p4r3.gif)
 
 ### Requirement 4
-To be added.
+![](p4r4.gif)
 
 ### Requirement 5
-To be added.
+![](p4r5.gif)
 
 ### Requirement 6
-To be added.
+![](p4r6.gif)
 
 ## Notes
 This project is an ARM Assembly implementation of using various UART functions with RealDigital's Blackboard Rev D. The link detailing overall requirements and documentation is posted.
