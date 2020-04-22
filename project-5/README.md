@@ -1,4 +1,4 @@
-# Project 4: UARTs
+# Project 5: Using Interrupts
 
 ## Videos
 ### Requirement 1
